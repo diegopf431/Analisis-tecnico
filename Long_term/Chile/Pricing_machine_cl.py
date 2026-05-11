@@ -7,10 +7,8 @@ Modifica la sección CONFIG y presiona Play.
 Tickers comunes:
   Acciones:  FALABELLA.SN  SQM-B.SN  COPEC.SN  BSANTANDER.SN
              CMPC.SN  ENELCHILE.SN  CENCOSUD.SN  LTM.SN
-  ETFs IPSA: No hay ETF directo del IPSA en .SN — la mejor aproximación
-             es ECH (iShares MSCI Chile) en NYSE, que funciona con
-             el pricing_machine.py del mercado US.
-
+  ETFs IPSA: 2 opciones; 1) Singular IPSA (CFIETFIPSA.SN), 
+                         2) It now s&p IPSA (CFMITNIPSA.SN) 
 Limitaciones vs versión US:
   - Sin OFI ni microprecio real (Yahoo no entrega bid/ask size)
   - VWAP intradía estimado (barras de minuto poco confiables en .SN)
